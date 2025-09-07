@@ -32,7 +32,7 @@ $activeDropdown = null;
 
 // Check which dropdown should be open
 foreach ($dropdowns as $dropdown => $pages) {
-    if (in_array($page, $pages)) {
+    if (in_array($page, $pages)) {af
         $activeDropdown = $dropdown;
         break;
     }
